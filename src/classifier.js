@@ -3,7 +3,7 @@
  *
  * @param {array} input Array of student objects
  */
-const input = require('./inputs/input')
+
 
 const {
   sort
@@ -70,7 +70,5 @@ function classifier(input) {
     });
 }
 
- let output= classifier(input)
- console.log(output)
-
+ 
 module.exports = classifier;
